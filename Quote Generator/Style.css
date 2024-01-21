@@ -1,0 +1,48 @@
+body {
+    font-family: 'Dancing Script', sans-serif; /* Use the 'Pacifico' font */
+    background-color: #8e44ad; /* Purple background color */
+    color: black; /* White font color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#quote-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Add some space between the heading and the quote container */
+}
+
+#quote-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#author {
+    font-style: italic;
+}
+
+#new-quote-btn {
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: white;
+    color: plum;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
